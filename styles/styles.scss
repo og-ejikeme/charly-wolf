@@ -13,7 +13,8 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     //background-color: var(--color-primary);
-    background: linear-gradient(225deg, var(--color-primary) 7%, var(--color-black) 100%);
+    background-color: var(--color-primary);
+    background-image: linear-gradient(225deg, var(--color-primary) 7%, var(--color-black) 100%);
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all .4s ease-in-out;
@@ -566,6 +567,11 @@ section {
     padding-top:  3.5rem;
     .left-contact {
         flex: 2;
+
+        .contact-title {
+            display: flex;
+            justify-content: space-between;
+        }
         h4 {
             margin-top: 1rem;
             font-size: 2rem;
@@ -575,11 +581,11 @@ section {
             margin: 1rem 0;
             line-height: 2rem;
         }
-        .contact-info {
+        .contact-info {    
+            display: grid;
+                grid-template-columns: repeat(3, 1fr);  
             .contact-item {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+                
                 p {
                     margin: .3rem 0 !important;
                     padding: 0 !important;
@@ -631,7 +637,7 @@ section {
         }
     }
 
-    .right-contact {
+    /*.right-contact {
         flex: 3;
         margin-left: 3rem;
         .input-control {
@@ -662,7 +668,7 @@ section {
             justify-content: flex-start;
         }
 
-    }
+    }*/
 }
 
 // Independent components

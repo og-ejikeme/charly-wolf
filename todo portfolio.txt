@@ -1,13 +1,5 @@
 TODO PERSONAL PORTFOLIO:
 
-en mobile quitar los bar progress y solo poner items, quizas tmb en desktop
-
-ver si puedo poner el boton de linked in en el hom mas arriba
-
-arreglar pagina about me, se ve mal en mobile y tmb el nav de abajo con botones
-
-agregar proyectos al portfolio
 
 implementar enviar mensaje a mi mail con el formulario
 
-corregir color blanco de fondo en cada transicion al cambiar de seccion
