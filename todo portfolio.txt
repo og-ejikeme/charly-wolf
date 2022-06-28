@@ -1,5 +1,0 @@
-TODO PERSONAL PORTFOLIO:
-
-
-implementar enviar mensaje a mi mail con el formulario
-
