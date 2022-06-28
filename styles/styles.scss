@@ -604,11 +604,12 @@ section {
 
         .contact-icons {
             display: flex;
+            justify-content: center;
         } 
 
         .contact-icon {
             display: flex;
-            margin-top: 2rem;
+            margin-top: 0.5rem;
             a {
                 display: flex;
                 align-items: center;

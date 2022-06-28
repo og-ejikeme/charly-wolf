@@ -618,10 +618,11 @@ section {
 }
 .contact-content-container .left-contact .contact-icons {
   display: flex;
+  justify-content: center;
 }
 .contact-content-container .left-contact .contact-icon {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 .contact-content-container .left-contact .contact-icon a {
   display: flex;
