@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     //background-color: var(--color-primary);
@@ -66,7 +70,7 @@ section {
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem 18rem;
+    padding: 3rem 13rem;
 }  
 
 .section {
@@ -239,6 +243,16 @@ section {
             margin: 1.5rem 0;
             line-height: 2rem;
         }
+        h2 {
+            margin-top: 1rem;
+            color: var(--color-secondary);
+            font-style: italic;
+        }
+
+        .personality-trades {
+            color: var(--color-secondary);
+            margin: 0.5rem 0;
+        }
     }
 }
 
@@ -294,7 +308,7 @@ section {
         }
     }
     .left-about {
-        padding-right: 5rem;
+        padding-right: 2rem;
         p{
             line-height: 2rem;
             padding: 1rem;
@@ -324,8 +338,14 @@ section {
             .progress-con {
                 display: flex;
                 align-items: center;
-                .prog-text {
+                .prog-icon {
+                    transition: all .4s ease-in-out;
                     color: var(--color-grey-2);
+                    font-size: 2rem;
+                    &:hover {
+                        color: var(--color-secondary);
+                        transform: scale(1.3);
+                    }
                 }
                 .progress {
                     width: 100%;
@@ -354,7 +374,7 @@ section {
                     }
 
                     .python {
-                        width: 75%;
+                        width: 50%;
                     }
 
                     .cpp {
@@ -363,6 +383,21 @@ section {
 
                     .git {
                         width: 80%;
+                    }
+                    .github {
+                        width: 70%;
+                    }
+                    .jira {
+                        width: 40%;
+                    }
+                    .azure {
+                        width: 30%;
+                    }
+                    .robot {
+                        width: 60%;
+                    }
+                    .selenium {
+                        width: 70%;
                     }
                 }
             }

@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(225deg, var(--color-primary) 7%, var(--color-black) 100%);
@@ -62,7 +66,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 3rem 18rem;
+  padding: 3rem 13rem;
 }
 
 .section {
@@ -239,6 +243,15 @@ section {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
+.header-content .right-header h2 {
+  margin-top: 1rem;
+  color: var(--color-secondary);
+  font-style: italic;
+}
+.header-content .right-header .personality-trades {
+  color: var(--color-secondary);
+  margin: 0.5rem 0;
+}
 
 .about-container {
   display: grid;
@@ -291,7 +304,7 @@ section {
   background-color: var(--color-grey-5);
 }
 .about-container .left-about {
-  padding-right: 5rem;
+  padding-right: 2rem;
 }
 .about-container .left-about p {
   line-height: 2rem;
@@ -323,8 +336,14 @@ section {
   display: flex;
   align-items: center;
 }
-.about-stats .progress-bars .progress-bar .progress-con .prog-text {
+.about-stats .progress-bars .progress-bar .progress-con .prog-icon {
+  transition: all 0.4s ease-in-out;
   color: var(--color-grey-2);
+  font-size: 2rem;
+}
+.about-stats .progress-bars .progress-bar .progress-con .prog-icon:hover {
+  color: var(--color-secondary);
+  transform: scale(1.3);
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress {
   width: 100%;
@@ -350,13 +369,28 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 75%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .cpp {
   width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .git {
   width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .github {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .jira {
+  width: 40%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .azure {
+  width: 30%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .robot {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .selenium {
+  width: 70%;
 }
 
 .stat-title {
