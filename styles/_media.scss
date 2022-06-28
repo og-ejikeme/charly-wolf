@@ -60,21 +60,27 @@
     }
 
     .about-stats {
-        .progress-bars {
-            grid-template-columns: 1fr;
+        padding-bottom: 4rem;
+        .skills {
+            
+            .skill {
+                
+                .skill-container {
+                    
+                    .skill-icon {
+                        font-size: 3rem;
+                    }
+                }
+            }
         }
     }
+
 
     .portfolios {
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
-
-    .blogs-container {
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-
+    
     .contact-content-container {
         flex-direction: column;
         .right-contact {
