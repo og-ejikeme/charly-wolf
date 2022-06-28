@@ -78,10 +78,13 @@
     
     .contact-content-container {
         flex-direction: column;
-        .right-contact {
-            margin-left: 0;
-            margin-top: 2.5rem;
-            margin-bottom: 6rem;
+        .left-contact {
+            .contact-info {
+                .contact-item {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
         }
     }
 
